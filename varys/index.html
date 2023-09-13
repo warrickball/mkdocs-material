@@ -1,0 +1,776 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../onyx/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
+    
+    
+      
+        <title>Varys - MkDocs-Material Sandbox</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#varys" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MkDocs-Material Sandbox" class="md-header__button md-logo" aria-label="MkDocs-Material Sandbox" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MkDocs-Material Sandbox
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Varys
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MkDocs-Material Sandbox" class="md-nav__button md-logo" aria-label="MkDocs-Material Sandbox" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    MkDocs-Material Sandbox
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../module/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Module
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onyx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onyx
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Varys
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Varys
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#varys" class="md-nav__link">
+    varys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#varys.varys" class="md-nav__link">
+    varys
+  </a>
+  
+    <nav class="md-nav" aria-label="varys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.get_channels" class="md-nav__link">
+    get_channels()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.receive" class="md-nav__link">
+    receive()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.receive_batch" class="md-nav__link">
+    receive_batch()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.send" class="md-nav__link">
+    send()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#varys.init_logger" class="md-nav__link">
+    init_logger()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#varys" class="md-nav__link">
+    varys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#varys.varys" class="md-nav__link">
+    varys
+  </a>
+  
+    <nav class="md-nav" aria-label="varys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.get_channels" class="md-nav__link">
+    get_channels()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.receive" class="md-nav__link">
+    receive()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.receive_batch" class="md-nav__link">
+    receive_batch()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varys.varys.send" class="md-nav__link">
+    send()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#varys.init_logger" class="md-nav__link">
+    init_logger()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Varys</h1>
+
+<div class="doc doc-object doc-module">
+
+
+
+<a id="varys"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+
+<h2 id="varys.varys" class="doc doc-heading">
+          <code>varys</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  
+      <p>A high-level wrapper for the producer and consumer classes used by varys, abstracting away the tedious details.</p>
+<p>...</p>
+
+
+
+  <table>
+    <thead>
+      <tr>
+        <th><b>ATTRIBUTE</b></th>
+        <th><b>DESCRIPTION</b></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>profile</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>profile name inside the configuration file to use when connecting to RabbitMQ</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>str</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>configuration_path</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>path to varys confiruration JSON file, provided with either the config_path argument or the VARYS_CFG environment variable</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>str</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>__logfile</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>the path to the logfile to use for logging, provided with the logfile argument</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>str</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>__log_level</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>the log level to use for logging, provided with the log_level argument, defaults to DEBUG (the most verbose logging level)</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>str</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>__credentials</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>an instance of the configurator class, used to store the RabbitMQ connection credentials</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>class</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>__in_channels</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>a dictionary of consumer classes and queues that have been connected to for receiving messages</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>dict</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><code>__out_channels</code></td>
+          <td class="doc-attribute-details">
+            <div class="doc-md-description">
+              <p>a dictionary of producer classes and queues that have been connected to for sending messages</p>
+            </div>
+            <p>
+                <span class="doc-attribute-annotation">
+                  <b>TYPE:</b>
+                    <code>dict</code>
+                </span>
+            </p>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+  <table>
+    <thead>
+      <tr>
+        <th><b>METHOD</b></th>
+        <th><b>DESCRIPTION</b></th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td><code>send</code></td>
+            <td class="doc-function-details">
+              <div class="doc-md-description">
+                <p>Either send a message to an existing exchange, or create a new exchange connection and send the message to it. queue_suffix must be provided when sending a message to a queue for the first time to instantiate a new connection.</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><code>receive</code></td>
+            <td class="doc-function-details">
+              <div class="doc-md-description">
+                <p>Either receive a message from an existing exchange, or create a new exchange connection and receive a message from it. queue_suffix must be provided when receiving a message from a queue for the first time to instantiate a new connection. block determines whether the receive method should block until a message is received or not.</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><code>receive_batch</code></td>
+            <td class="doc-function-details">
+              <div class="doc-md-description">
+                <p>Either receive a batch of messages from an existing exchange, or create a new exchange connection and receive a batch of messages from it. queue_suffix must be provided when receiving a message from a queue for the first time to instantiate a new connection.</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><code>get_channels</code></td>
+            <td class="doc-function-details">
+              <div class="doc-md-description">
+                <p>Return a dict of all the channels that have been connected to with the keys "consumer_channels" and "producer_channels"</p>
+              </div>
+            </td>
+          </tr>
+    </tbody>
+  </table>
+
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h3 id="varys.varys.get_channels" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">get_channels</span><span class="p">()</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Return all open channels.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h3 id="varys.varys.receive" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">receive</span><span class="p">(</span><span class="n">exchange</span><span class="p">,</span> <span class="n">queue_suffix</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">block</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Either receive a message from an existing exchange, or create a new exchange connection and receive a message from it.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h3 id="varys.varys.receive_batch" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">receive_batch</span><span class="p">(</span><span class="n">exchange</span><span class="p">,</span> <span class="n">queue_suffix</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Either receive all messages available from an existing exchange, or create a new exchange connection and receive all messages available from it.</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h3 id="varys.varys.send" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">send</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">exchange</span><span class="p">,</span> <span class="n">queue_suffix</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Either send a message to an existing exchange, or create a new exchange connection and send the message to it.</p>
+
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="varys.init_logger" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">init_logger</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">log_path</span><span class="p">,</span> <span class="n">log_level</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>
