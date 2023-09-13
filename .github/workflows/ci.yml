@@ -22,6 +22,7 @@ jobs:
             mkdocs-material-
       - run: |
           pip install 'onyx @ git+https://github.com/CLIMB-TRE/onyx-client@0b791a8237e0418aa42a2e0f98bac587d7afb95a'
+          pip install 'varys @ git+https://github.com/CLIMB-TRE/varys@40b58eede873c5ae5327540ee767a77bb0cf73fe'
           pip install mkdocs-material
           pip install mkdocstrings[python]
           pip install mkdocs-with-pdf
