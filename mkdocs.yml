@@ -1,3 +1,20 @@
-site_name: My Docs
+site_name: MkDocs-Material Sandbox
 theme:
   name: material
+
+plugins:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [/home/wball/work/mkdocs-material, /home/wball/work/climb/onyx-client]
+          options:
+            docstring_style: numpy
+            docstring_section_style: spacy
+            show_source: false
+  - with-pdf
+
+nav:
+  - Home: index.md
+  - Module: module.md
+  - Onyx: onyx.md
